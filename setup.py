@@ -71,7 +71,7 @@ setup(
         "cloudpickle==1.2.1",
         "tensorboardX==1.8",
         "tb-nightly==1.15.0a20190801",
-        "click",
+        "click", 'xlrd', 'xlwt'
     ],
     classifiers=[
         'Intended Audience :: Developers',

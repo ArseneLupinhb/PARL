@@ -12,10 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+import sys
+
+sys.path
 from rlschool import LiftSim
 from wrapper import Wrapper, ActionWrapper, ObservationWrapper
 from rl_benchmark.dispatcher import RL_dispatcher
-import sys
 import argparse
 
 
